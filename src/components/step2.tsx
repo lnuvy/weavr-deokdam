@@ -45,8 +45,8 @@ const Step2 = (props: Step2Props) => {
             <p className="text-2xl font-bold">키워드 선택</p>
 
             <div className="flex items-center gap-2">
-              <Switch checked={isDeepSeek} onCheckedChange={setIsDeepSeek} />
               <p className="ml-2 whitespace-nowrap font-bold">{isDeepSeek ? "DeepSeek-r1:14b" : "Llama3.1:8b"}</p>
+              <Switch checked={isDeepSeek} onCheckedChange={setIsDeepSeek} />
             </div>
           </div>
         </CardTitle>
