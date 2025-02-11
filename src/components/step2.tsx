@@ -4,7 +4,7 @@ import { Button } from "./ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card"
 import { Switch } from "./ui/switch"
 
-const KEYWORDS = ["의료(건강)", "차트", "푸르다", "뱀", "코인", "25번째", "프론트", "커피", "칫솔", "키보드"]
+const KEYWORDS = ["의료(건강)", "차트", "푸르다", "뱀", "코인", "발표", "커피", "칫솔", "키보드"]
 
 export interface SubmitType {
   keywords: string[]
